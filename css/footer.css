@@ -1,0 +1,23 @@
+.page-footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skype {
+    background: url("../img/skype.svg") center center no-repeat;
+}
+
+.ln {
+    background: url("../img/ln.svg") center center no-repeat;
+}
+
+.social-net--footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-net--footer .social-net__link {
+    background-size: 30%;
+    background-color: transparent;
+}

@@ -1,7 +1,8 @@
 .link,
 .main-section__text,
 .article__text,
-.articles-list__item::before {
+.articles-list__item::before,
+.copyright {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -73,5 +74,10 @@
 }
 
 .article--sixLine .article__title {
+    color: #ffffff;
+}
+
+.copyright {
+    font-size: 14px;
     color: #ffffff;
 }
