@@ -1,0 +1,77 @@
+.link,
+.main-section__text,
+.article__text,
+.articles-list__item::before {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #a4aead;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu__link-active {
+    color: #23b7a4;
+}
+
+.main-section__caption,
+.menu--secondLine .link,
+.slogans,
+.article__title,
+.img__title,
+.button {
+    font-family: 'Quattrocento Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-section__caption {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.main-section__text {
+    color: #ccd0d7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu--secondLine .link {
+    color: #ffffff;
+}
+
+.slogans {
+    color: #292f36;
+    font-size: 36px;
+}
+
+.article__text {
+    color: #8d8f92;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.img__title {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.button {
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.article--WWD .article__title {
+    font-size: 17px;
+}
+
+.article--sixLine .article__title {
+    color: #ffffff;
+}

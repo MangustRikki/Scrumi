@@ -1,0 +1,76 @@
+.page-head,
+.second-line,
+.third-line,
+.fourth-line,
+.fifth-line,
+.sixth-line,
+.page-footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* divide page on lines */
+
+.page-head {
+    height: 81px;
+    background-color: #1d2126;
+}
+
+.second-line {
+    height: 660px;
+    background: url(../img/main-img.jpg) no-repeat;
+    background-size: 100% 660px;
+}
+
+.third-line {
+    height: 661px;
+    display: flex;
+    align-items: center;
+}
+
+.fourth-line {
+    height: 899px;
+}
+
+.fifth-line {
+    height: 830px;
+}
+
+.sixth-line {
+    height: 732px;
+}
+
+.page-footer {
+    height: 95px;
+}
+
+.fourth-line,
+.sixth-line,
+.page-footer {
+    background: #3a454d;
+}
+
+
+/* width for wrappers */
+
+.page__head__wrap,
+.second-line__wrap,
+.third-line__wrap,
+.fifth-line__wrap,
+.sixth-line__wrap,
+.page-footer {
+    width: 1131px;
+}
+
+.fourth-line__wrap {
+    width: 1141px;
+}
+
+
+/* layout in wrappers */
+
+.second-line__wrap {
+    display: flex;
+    align-items: center;
+}

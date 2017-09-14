@@ -1,0 +1,38 @@
+.articles-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.art-col {
+    width: 32%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field,
+.velo,
+.lake {
+    width: 100%;
+    height: 240px;
+    flex-basis: 120%;
+}
+
+.field {
+    background: url('../img/field.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.velo {
+    background: url('../img/velo.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.lake {
+    background: url('../img/lake.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.art-col .article {
+    margin: 20px 0 0 0;
+}

@@ -1,0 +1,100 @@
+.textbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbox__leftColumn {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textbox__rightColumn {
+    width: 40%;
+}
+
+.slogans {
+    border-left: 10px solid #e1e6ea;
+    padding-left: 14px;
+}
+
+.third-line__wrap .slogans {
+    margin-bottom: 63px;
+}
+
+.article__text:last-child {
+    margin-top: 40px;
+}
+
+
+/* style for social net */
+
+.social-net {
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+}
+
+.facebook {
+    background: url("../img/facebook.svg") center center no-repeat;
+}
+
+.twitter {
+    background: url('../img/twitter.svg') center center no-repeat;
+}
+
+.google {
+    background: url('../img/google.svg') center center no-repeat;
+}
+
+.dribbble {
+    background: url('../img/drbl.svg') center center no-repeat;
+}
+
+.behance {
+    background: url('../img/be.svg') center center no-repeat;
+}
+
+.social-net__link {
+    background-color: #c8cdd0;
+    background-size: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.social-net__link:hover {
+    background-color: #d0d5d9;
+}
+
+
+/* ordered list */
+
+.articles-list {
+    counter-reset: myCount;
+}
+
+.articles-list__item {
+    list-style: none;
+    display: flex;
+}
+
+.articles-list__item::before {
+    display: flex;
+    counter-increment: myCount;
+    content: counter(myCount, decimal-leading-zero);
+    color: white;
+    height: 50px;
+    width: 50px;
+    background: #23b7a4;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 89%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

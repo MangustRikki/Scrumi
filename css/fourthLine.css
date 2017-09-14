@@ -1,0 +1,84 @@
+.slogans--white {
+    color: white;
+    margin-top: 86px;
+    margin-bottom: 63px;
+}
+
+.img {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.img__link {
+    position: relative;
+    display: flex;
+    height: 265px;
+    width: 31.5%;
+    margin-bottom: 20px;
+}
+
+.img__target {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: url('../img/glyphicons-plus.png') center top 35% no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.img__title {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    margin-top: 205px;
+    position: absolute;
+    z-index: 9999;
+    background: #292f36;
+}
+
+.img__link:nth-child(1) {
+    background: url('../img/bugel.jpg') no-repeat;
+}
+
+.img__link:nth-child(2) {
+    background: url('../img/skateman.jpg') no-repeat;
+}
+
+.img__link:nth-child(3) {
+    background: url('../img/road.jpg') no-repeat;
+}
+
+.img__link:nth-child(4) {
+    background: url('../img/island.jpg') no-repeat;
+}
+
+.img__link:nth-child(5) {
+    background: url('../img/mountains.jpg') no-repeat;
+}
+
+.img__link:nth-child(6) {
+    background: url('../img/seabird.jpg') no-repeat;
+}
+
+.img__link:hover .img__target {
+    display: block;
+}
+
+.wrap-button {
+    display: flex;
+    height: 164px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 13%;
+    border-radius: 5px;
+    background: #3a454d;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
