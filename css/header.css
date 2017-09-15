@@ -39,6 +39,7 @@
     width: 100%;
     text-align: center;
     box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0);
 }
 
 .link:hover {
